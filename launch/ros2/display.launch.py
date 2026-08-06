@@ -9,7 +9,7 @@ from launch_ros.substitutions import FindPackageShare
 
 
 def generate_launch_description():
-    urdf_pkg_path = FindPackageShare("hex_ros_urdf_template")
+    urdf_pkg_path = FindPackageShare("hex_ros_urdf_trigger_a")
     rviz_config_path = PathJoinSubstitution(
         [urdf_pkg_path, "config", "ros2", "display.rviz"])
     urdf_file_path = PathJoinSubstitution(

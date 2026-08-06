@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.2)
-project(hex_ros_urdf_template)
+project(hex_ros_urdf_trigger_a)
 
 set(X_ROS_VERSION $ENV{ROS_VERSION})
 message(STATUS "Your ROS version is ROS${X_ROS_VERSION}")
@@ -28,7 +28,7 @@ elseif (${X_ROS_VERSION} STREQUAL "2")
     endif()
 
     find_package(ament_cmake REQUIRED)
-    find_package(xacro)
+    find_package(xacro REQUIRED)
 
     ament_package()
 
