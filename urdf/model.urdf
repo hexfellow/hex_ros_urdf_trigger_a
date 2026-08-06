@@ -35,10 +35,162 @@
         <mesh filename="package://hex_ros_urdf_trigger_a/meshes/link_1.dae" />
       </geometry>
       <material name="">
-        <color rgba="0.43921568627451 0.43921568627451 0.43921568627451 0.5" />
+        <color rgba="0.43921568627451 0.43921568627451 0.43921568627451 1" />
       </material>
     </visual>
   </link>
+  <link name="link_1_caster_8">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.0059" />
+      <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.015" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_1_caster_8" type="continuous">
+    <parent link="link_1" />
+    <child link="link_1_caster_8" />
+    <origin xyz="-0.038 0.080377519 0.033293458" rpy="0 0 0" />
+    <axis xyz="0 -0.382683 0.923880" />
+  </joint>
+  <link name="link_1_caster_9">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.0059" />
+      <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.015" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_1_caster_9" type="continuous">
+    <parent link="link_1" />
+    <child link="link_1_caster_9" />
+    <origin xyz="-0.038 0.033293458 0.080377519" rpy="0 0 0" />
+    <axis xyz="0 -0.923880 0.382683" />
+  </joint>
+  <link name="link_1_caster_10">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.0059" />
+      <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.015" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_1_caster_10" type="continuous">
+    <parent link="link_1" />
+    <child link="link_1_caster_10" />
+    <origin xyz="-0.038 -0.033293458 0.080377519" rpy="0 0 0" />
+    <axis xyz="0 -0.923880 -0.382683" />
+  </joint>
+  <link name="link_1_caster_11">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.0059" />
+      <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.015" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_1_caster_11" type="continuous">
+    <parent link="link_1" />
+    <child link="link_1_caster_11" />
+    <origin xyz="-0.038 -0.080377519 0.033293458" rpy="0 0 0" />
+    <axis xyz="0 -0.382683 -0.923880" />
+  </joint>
+  <link name="link_1_caster_12">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.0059" />
+      <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.015" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_1_caster_12" type="continuous">
+    <parent link="link_1" />
+    <child link="link_1_caster_12" />
+    <origin xyz="-0.038 -0.080377519 -0.033293458" rpy="0 0 0" />
+    <axis xyz="0 0.382683 -0.923880" />
+  </joint>
+  <link name="link_1_caster_13">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.0059" />
+      <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.015" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_1_caster_13" type="continuous">
+    <parent link="link_1" />
+    <child link="link_1_caster_13" />
+    <origin xyz="-0.038 -0.033293458 -0.080377519" rpy="0 0 0" />
+    <axis xyz="0 0.923880 -0.382683" />
+  </joint>
+  <link name="link_1_caster_14">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.0059" />
+      <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.015" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_1_caster_14" type="continuous">
+    <parent link="link_1" />
+    <child link="link_1_caster_14" />
+    <origin xyz="-0.038 0.033293458 -0.080377519" rpy="0 0 0" />
+    <axis xyz="0 0.923880 0.382683" />
+  </joint>
+  <link name="link_1_caster_15">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.0059" />
+      <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.015" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_1_caster_15" type="continuous">
+    <parent link="link_1" />
+    <child link="link_1_caster_15" />
+    <origin xyz="-0.038 0.080377519 -0.033293458" rpy="0 0 0" />
+    <axis xyz="0 0.382683 0.923880" />
+  </joint>
   <joint name="joint_1" type="continuous">
     <origin xyz="0.14475 0.25071 0.103" rpy="0 0 -2.0944" />
     <parent link="base_link" />
@@ -52,23 +204,17 @@
       <mass value="0.0059" />
       <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
     </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <sphere radius="0.025" />
-      </geometry>
-    </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.025" />
+        <sphere radius="0.015" />
       </geometry>
     </collision>
   </link>
   <joint name="joint_1_caster_0" type="continuous">
     <parent link="link_1" />
     <child link="link_1_caster_0" />
-    <origin xyz="-0.04 0.075 0.0" rpy="0 0 0" />
+    <origin xyz="-0.038 0.087 0.0" rpy="0 0 0" />
     <axis xyz="0 0 1" />
   </joint>
   <link name="link_1_caster_1">
@@ -77,23 +223,17 @@
       <mass value="0.0059" />
       <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
     </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <sphere radius="0.025" />
-      </geometry>
-    </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.025" />
+        <sphere radius="0.015" />
       </geometry>
     </collision>
   </link>
   <joint name="joint_1_caster_1" type="continuous">
     <parent link="link_1" />
     <child link="link_1_caster_1" />
-    <origin xyz="-0.04 0.053 0.053" rpy="0 0 0" />
+    <origin xyz="-0.038 0.061518290 0.061518290" rpy="0 0 0" />
     <axis xyz="0 -0.707107 0.707107" />
   </joint>
   <link name="link_1_caster_2">
@@ -102,23 +242,17 @@
       <mass value="0.0059" />
       <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
     </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <sphere radius="0.025" />
-      </geometry>
-    </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.025" />
+        <sphere radius="0.015" />
       </geometry>
     </collision>
   </link>
   <joint name="joint_1_caster_2" type="continuous">
     <parent link="link_1" />
     <child link="link_1_caster_2" />
-    <origin xyz="-0.04 0.0 0.075" rpy="0 0 0" />
+    <origin xyz="-0.038 0.0 0.087" rpy="0 0 0" />
     <axis xyz="0 -1 0" />
   </joint>
   <link name="link_1_caster_3">
@@ -127,23 +261,17 @@
       <mass value="0.0059" />
       <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
     </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <sphere radius="0.025" />
-      </geometry>
-    </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.025" />
+        <sphere radius="0.015" />
       </geometry>
     </collision>
   </link>
   <joint name="joint_1_caster_3" type="continuous">
     <parent link="link_1" />
     <child link="link_1_caster_3" />
-    <origin xyz="-0.04 -0.053 0.053" rpy="0 0 0" />
+    <origin xyz="-0.038 -0.061518290 0.061518290" rpy="0 0 0" />
     <axis xyz="0 -0.707107 -0.707107" />
   </joint>
   <link name="link_1_caster_4">
@@ -152,23 +280,17 @@
       <mass value="0.0059" />
       <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
     </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <sphere radius="0.025" />
-      </geometry>
-    </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.025" />
+        <sphere radius="0.015" />
       </geometry>
     </collision>
   </link>
   <joint name="joint_1_caster_4" type="continuous">
     <parent link="link_1" />
     <child link="link_1_caster_4" />
-    <origin xyz="-0.04 -0.075 0.0" rpy="0 0 0" />
+    <origin xyz="-0.038 -0.087 0.0" rpy="0 0 0" />
     <axis xyz="0 0 -1" />
   </joint>
   <link name="link_1_caster_5">
@@ -177,23 +299,17 @@
       <mass value="0.0059" />
       <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
     </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <sphere radius="0.025" />
-      </geometry>
-    </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.025" />
+        <sphere radius="0.015" />
       </geometry>
     </collision>
   </link>
   <joint name="joint_1_caster_5" type="continuous">
     <parent link="link_1" />
     <child link="link_1_caster_5" />
-    <origin xyz="-0.04 -0.053 -0.053" rpy="0 0 0" />
+    <origin xyz="-0.038 -0.061518290 -0.061518290" rpy="0 0 0" />
     <axis xyz="0 0.707107 -0.707107" />
   </joint>
   <link name="link_1_caster_6">
@@ -202,23 +318,17 @@
       <mass value="0.0059" />
       <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
     </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <sphere radius="0.025" />
-      </geometry>
-    </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.025" />
+        <sphere radius="0.015" />
       </geometry>
     </collision>
   </link>
   <joint name="joint_1_caster_6" type="continuous">
     <parent link="link_1" />
     <child link="link_1_caster_6" />
-    <origin xyz="-0.04 0.0 -0.075" rpy="0 0 0" />
+    <origin xyz="-0.038 0.0 -0.087" rpy="0 0 0" />
     <axis xyz="0 1 0" />
   </joint>
   <link name="link_1_caster_7">
@@ -227,23 +337,17 @@
       <mass value="0.0059" />
       <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
     </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <sphere radius="0.025" />
-      </geometry>
-    </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.025" />
+        <sphere radius="0.015" />
       </geometry>
     </collision>
   </link>
   <joint name="joint_1_caster_7" type="continuous">
     <parent link="link_1" />
     <child link="link_1_caster_7" />
-    <origin xyz="-0.04 0.053 -0.053" rpy="0 0 0" />
+    <origin xyz="-0.038 0.061518290 -0.061518290" rpy="0 0 0" />
     <axis xyz="0 0.707107 0.707107" />
   </joint>
 
@@ -259,10 +363,162 @@
         <mesh filename="package://hex_ros_urdf_trigger_a/meshes/link_2.dae" />
       </geometry>
       <material name="">
-        <color rgba="0.43921568627451 0.43921568627451 0.43921568627451 0.5" />
+        <color rgba="0.43921568627451 0.43921568627451 0.43921568627451 1" />
       </material>
     </visual>
   </link>
+  <link name="link_2_caster_8">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.0059" />
+      <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.015" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_2_caster_8" type="continuous">
+    <parent link="link_2" />
+    <child link="link_2_caster_8" />
+    <origin xyz="0.038 0.080377519 0.033293458" rpy="0 0 0" />
+    <axis xyz="0 -0.382683 0.923880" />
+  </joint>
+  <link name="link_2_caster_9">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.0059" />
+      <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.015" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_2_caster_9" type="continuous">
+    <parent link="link_2" />
+    <child link="link_2_caster_9" />
+    <origin xyz="0.038 0.033293458 0.080377519" rpy="0 0 0" />
+    <axis xyz="0 -0.923880 0.382683" />
+  </joint>
+  <link name="link_2_caster_10">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.0059" />
+      <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.015" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_2_caster_10" type="continuous">
+    <parent link="link_2" />
+    <child link="link_2_caster_10" />
+    <origin xyz="0.038 -0.033293458 0.080377519" rpy="0 0 0" />
+    <axis xyz="0 -0.923880 -0.382683" />
+  </joint>
+  <link name="link_2_caster_11">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.0059" />
+      <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.015" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_2_caster_11" type="continuous">
+    <parent link="link_2" />
+    <child link="link_2_caster_11" />
+    <origin xyz="0.038 -0.080377519 0.033293458" rpy="0 0 0" />
+    <axis xyz="0 -0.382683 -0.923880" />
+  </joint>
+  <link name="link_2_caster_12">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.0059" />
+      <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.015" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_2_caster_12" type="continuous">
+    <parent link="link_2" />
+    <child link="link_2_caster_12" />
+    <origin xyz="0.038 -0.080377519 -0.033293458" rpy="0 0 0" />
+    <axis xyz="0 0.382683 -0.923880" />
+  </joint>
+  <link name="link_2_caster_13">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.0059" />
+      <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.015" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_2_caster_13" type="continuous">
+    <parent link="link_2" />
+    <child link="link_2_caster_13" />
+    <origin xyz="0.038 -0.033293458 -0.080377519" rpy="0 0 0" />
+    <axis xyz="0 0.923880 -0.382683" />
+  </joint>
+  <link name="link_2_caster_14">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.0059" />
+      <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.015" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_2_caster_14" type="continuous">
+    <parent link="link_2" />
+    <child link="link_2_caster_14" />
+    <origin xyz="0.038 0.033293458 -0.080377519" rpy="0 0 0" />
+    <axis xyz="0 0.923880 0.382683" />
+  </joint>
+  <link name="link_2_caster_15">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.0059" />
+      <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.015" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_2_caster_15" type="continuous">
+    <parent link="link_2" />
+    <child link="link_2_caster_15" />
+    <origin xyz="0.038 0.080377519 -0.033293458" rpy="0 0 0" />
+    <axis xyz="0 0.382683 0.923880" />
+  </joint>
   <joint name="joint_2" type="continuous">
     <origin xyz="0.14475 -0.25071 0.103" rpy="0 0 -1.0472" />
     <parent link="base_link" />
@@ -276,23 +532,17 @@
       <mass value="0.0059" />
       <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
     </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <sphere radius="0.025" />
-      </geometry>
-    </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.025" />
+        <sphere radius="0.015" />
       </geometry>
     </collision>
   </link>
   <joint name="joint_2_caster_0" type="continuous">
     <parent link="link_2" />
     <child link="link_2_caster_0" />
-    <origin xyz="0.04 0.075 0.0" rpy="0 0 0" />
+    <origin xyz="0.038 0.087 0.0" rpy="0 0 0" />
     <axis xyz="0 0 1" />
   </joint>
   <link name="link_2_caster_1">
@@ -301,23 +551,17 @@
       <mass value="0.0059" />
       <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
     </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <sphere radius="0.025" />
-      </geometry>
-    </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.025" />
+        <sphere radius="0.015" />
       </geometry>
     </collision>
   </link>
   <joint name="joint_2_caster_1" type="continuous">
     <parent link="link_2" />
     <child link="link_2_caster_1" />
-    <origin xyz="0.04 0.053 0.053" rpy="0 0 0" />
+    <origin xyz="0.038 0.061518290 0.061518290" rpy="0 0 0" />
     <axis xyz="0 -0.707107 0.707107" />
   </joint>
   <link name="link_2_caster_2">
@@ -326,23 +570,17 @@
       <mass value="0.0059" />
       <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
     </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <sphere radius="0.025" />
-      </geometry>
-    </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.025" />
+        <sphere radius="0.015" />
       </geometry>
     </collision>
   </link>
   <joint name="joint_2_caster_2" type="continuous">
     <parent link="link_2" />
     <child link="link_2_caster_2" />
-    <origin xyz="0.04 0.0 0.075" rpy="0 0 0" />
+    <origin xyz="0.038 0.0 0.087" rpy="0 0 0" />
     <axis xyz="0 -1 0" />
   </joint>
   <link name="link_2_caster_3">
@@ -351,23 +589,17 @@
       <mass value="0.0059" />
       <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
     </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <sphere radius="0.025" />
-      </geometry>
-    </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.025" />
+        <sphere radius="0.015" />
       </geometry>
     </collision>
   </link>
   <joint name="joint_2_caster_3" type="continuous">
     <parent link="link_2" />
     <child link="link_2_caster_3" />
-    <origin xyz="0.04 -0.053 0.053" rpy="0 0 0" />
+    <origin xyz="0.038 -0.061518290 0.061518290" rpy="0 0 0" />
     <axis xyz="0 -0.707107 -0.707107" />
   </joint>
   <link name="link_2_caster_4">
@@ -376,23 +608,17 @@
       <mass value="0.0059" />
       <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
     </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <sphere radius="0.025" />
-      </geometry>
-    </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.025" />
+        <sphere radius="0.015" />
       </geometry>
     </collision>
   </link>
   <joint name="joint_2_caster_4" type="continuous">
     <parent link="link_2" />
     <child link="link_2_caster_4" />
-    <origin xyz="0.04 -0.075 0.0" rpy="0 0 0" />
+    <origin xyz="0.038 -0.087 0.0" rpy="0 0 0" />
     <axis xyz="0 0 -1" />
   </joint>
   <link name="link_2_caster_5">
@@ -401,23 +627,17 @@
       <mass value="0.0059" />
       <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
     </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <sphere radius="0.025" />
-      </geometry>
-    </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.025" />
+        <sphere radius="0.015" />
       </geometry>
     </collision>
   </link>
   <joint name="joint_2_caster_5" type="continuous">
     <parent link="link_2" />
     <child link="link_2_caster_5" />
-    <origin xyz="0.04 -0.053 -0.053" rpy="0 0 0" />
+    <origin xyz="0.038 -0.061518290 -0.061518290" rpy="0 0 0" />
     <axis xyz="0 0.707107 -0.707107" />
   </joint>
   <link name="link_2_caster_6">
@@ -426,23 +646,17 @@
       <mass value="0.0059" />
       <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
     </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <sphere radius="0.025" />
-      </geometry>
-    </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.025" />
+        <sphere radius="0.015" />
       </geometry>
     </collision>
   </link>
   <joint name="joint_2_caster_6" type="continuous">
     <parent link="link_2" />
     <child link="link_2_caster_6" />
-    <origin xyz="0.04 0.0 -0.075" rpy="0 0 0" />
+    <origin xyz="0.038 0.0 -0.087" rpy="0 0 0" />
     <axis xyz="0 1 0" />
   </joint>
   <link name="link_2_caster_7">
@@ -451,23 +665,17 @@
       <mass value="0.0059" />
       <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
     </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <sphere radius="0.025" />
-      </geometry>
-    </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.025" />
+        <sphere radius="0.015" />
       </geometry>
     </collision>
   </link>
   <joint name="joint_2_caster_7" type="continuous">
     <parent link="link_2" />
     <child link="link_2_caster_7" />
-    <origin xyz="0.04 0.053 -0.053" rpy="0 0 0" />
+    <origin xyz="0.038 0.061518290 -0.061518290" rpy="0 0 0" />
     <axis xyz="0 0.707107 0.707107" />
   </joint>
 
@@ -483,10 +691,162 @@
         <mesh filename="package://hex_ros_urdf_trigger_a/meshes/link_3.dae" />
       </geometry>
       <material name="">
-        <color rgba="0.43921568627451 0.43921568627451 0.43921568627451 0.5" />
+        <color rgba="0.43921568627451 0.43921568627451 0.43921568627451 1" />
       </material>
     </visual>
   </link>
+  <link name="link_3_caster_8">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.0059" />
+      <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.015" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_3_caster_8" type="continuous">
+    <parent link="link_3" />
+    <child link="link_3_caster_8" />
+    <origin xyz="-0.038 0.080377519 0.033293458" rpy="0 0 0" />
+    <axis xyz="0 -0.382683 0.923880" />
+  </joint>
+  <link name="link_3_caster_9">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.0059" />
+      <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.015" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_3_caster_9" type="continuous">
+    <parent link="link_3" />
+    <child link="link_3_caster_9" />
+    <origin xyz="-0.038 0.033293458 0.080377519" rpy="0 0 0" />
+    <axis xyz="0 -0.923880 0.382683" />
+  </joint>
+  <link name="link_3_caster_10">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.0059" />
+      <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.015" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_3_caster_10" type="continuous">
+    <parent link="link_3" />
+    <child link="link_3_caster_10" />
+    <origin xyz="-0.038 -0.033293458 0.080377519" rpy="0 0 0" />
+    <axis xyz="0 -0.923880 -0.382683" />
+  </joint>
+  <link name="link_3_caster_11">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.0059" />
+      <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.015" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_3_caster_11" type="continuous">
+    <parent link="link_3" />
+    <child link="link_3_caster_11" />
+    <origin xyz="-0.038 -0.080377519 0.033293458" rpy="0 0 0" />
+    <axis xyz="0 -0.382683 -0.923880" />
+  </joint>
+  <link name="link_3_caster_12">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.0059" />
+      <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.015" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_3_caster_12" type="continuous">
+    <parent link="link_3" />
+    <child link="link_3_caster_12" />
+    <origin xyz="-0.038 -0.080377519 -0.033293458" rpy="0 0 0" />
+    <axis xyz="0 0.382683 -0.923880" />
+  </joint>
+  <link name="link_3_caster_13">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.0059" />
+      <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.015" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_3_caster_13" type="continuous">
+    <parent link="link_3" />
+    <child link="link_3_caster_13" />
+    <origin xyz="-0.038 -0.033293458 -0.080377519" rpy="0 0 0" />
+    <axis xyz="0 0.923880 -0.382683" />
+  </joint>
+  <link name="link_3_caster_14">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.0059" />
+      <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.015" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_3_caster_14" type="continuous">
+    <parent link="link_3" />
+    <child link="link_3_caster_14" />
+    <origin xyz="-0.038 0.033293458 -0.080377519" rpy="0 0 0" />
+    <axis xyz="0 0.923880 0.382683" />
+  </joint>
+  <link name="link_3_caster_15">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <mass value="0.0059" />
+      <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.015" />
+      </geometry>
+    </collision>
+  </link>
+  <joint name="joint_3_caster_15" type="continuous">
+    <parent link="link_3" />
+    <child link="link_3_caster_15" />
+    <origin xyz="-0.038 0.080377519 -0.033293458" rpy="0 0 0" />
+    <axis xyz="0 0.382683 0.923880" />
+  </joint>
   <joint name="joint_3" type="continuous">
     <origin xyz="-0.2895 0 0.103" rpy="0 0 0" />
     <parent link="base_link" />
@@ -500,23 +860,17 @@
       <mass value="0.0059" />
       <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
     </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <sphere radius="0.025" />
-      </geometry>
-    </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.025" />
+        <sphere radius="0.015" />
       </geometry>
     </collision>
   </link>
   <joint name="joint_3_caster_0" type="continuous">
     <parent link="link_3" />
     <child link="link_3_caster_0" />
-    <origin xyz="-0.04 0.075 0.0" rpy="0 0 0" />
+    <origin xyz="-0.038 0.087 0.0" rpy="0 0 0" />
     <axis xyz="0 0 1" />
   </joint>
   <link name="link_3_caster_1">
@@ -525,23 +879,17 @@
       <mass value="0.0059" />
       <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
     </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <sphere radius="0.025" />
-      </geometry>
-    </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.025" />
+        <sphere radius="0.015" />
       </geometry>
     </collision>
   </link>
   <joint name="joint_3_caster_1" type="continuous">
     <parent link="link_3" />
     <child link="link_3_caster_1" />
-    <origin xyz="-0.04 0.053 0.053" rpy="0 0 0" />
+    <origin xyz="-0.038 0.061518290 0.061518290" rpy="0 0 0" />
     <axis xyz="0 -0.707107 0.707107" />
   </joint>
   <link name="link_3_caster_2">
@@ -550,23 +898,17 @@
       <mass value="0.0059" />
       <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
     </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <sphere radius="0.025" />
-      </geometry>
-    </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.025" />
+        <sphere radius="0.015" />
       </geometry>
     </collision>
   </link>
   <joint name="joint_3_caster_2" type="continuous">
     <parent link="link_3" />
     <child link="link_3_caster_2" />
-    <origin xyz="-0.04 0.0 0.075" rpy="0 0 0" />
+    <origin xyz="-0.038 0.0 0.087" rpy="0 0 0" />
     <axis xyz="0 -1 0" />
   </joint>
   <link name="link_3_caster_3">
@@ -575,23 +917,17 @@
       <mass value="0.0059" />
       <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
     </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <sphere radius="0.025" />
-      </geometry>
-    </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.025" />
+        <sphere radius="0.015" />
       </geometry>
     </collision>
   </link>
   <joint name="joint_3_caster_3" type="continuous">
     <parent link="link_3" />
     <child link="link_3_caster_3" />
-    <origin xyz="-0.04 -0.053 0.053" rpy="0 0 0" />
+    <origin xyz="-0.038 -0.061518290 0.061518290" rpy="0 0 0" />
     <axis xyz="0 -0.707107 -0.707107" />
   </joint>
   <link name="link_3_caster_4">
@@ -600,23 +936,17 @@
       <mass value="0.0059" />
       <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
     </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <sphere radius="0.025" />
-      </geometry>
-    </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.025" />
+        <sphere radius="0.015" />
       </geometry>
     </collision>
   </link>
   <joint name="joint_3_caster_4" type="continuous">
     <parent link="link_3" />
     <child link="link_3_caster_4" />
-    <origin xyz="-0.04 -0.075 0.0" rpy="0 0 0" />
+    <origin xyz="-0.038 -0.087 0.0" rpy="0 0 0" />
     <axis xyz="0 0 -1" />
   </joint>
   <link name="link_3_caster_5">
@@ -625,23 +955,17 @@
       <mass value="0.0059" />
       <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
     </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <sphere radius="0.025" />
-      </geometry>
-    </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.025" />
+        <sphere radius="0.015" />
       </geometry>
     </collision>
   </link>
   <joint name="joint_3_caster_5" type="continuous">
     <parent link="link_3" />
     <child link="link_3_caster_5" />
-    <origin xyz="-0.04 -0.053 -0.053" rpy="0 0 0" />
+    <origin xyz="-0.038 -0.061518290 -0.061518290" rpy="0 0 0" />
     <axis xyz="0 0.707107 -0.707107" />
   </joint>
   <link name="link_3_caster_6">
@@ -650,23 +974,17 @@
       <mass value="0.0059" />
       <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
     </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <sphere radius="0.025" />
-      </geometry>
-    </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.025" />
+        <sphere radius="0.015" />
       </geometry>
     </collision>
   </link>
   <joint name="joint_3_caster_6" type="continuous">
     <parent link="link_3" />
     <child link="link_3_caster_6" />
-    <origin xyz="-0.04 0.0 -0.075" rpy="0 0 0" />
+    <origin xyz="-0.038 0.0 -0.087" rpy="0 0 0" />
     <axis xyz="0 1 0" />
   </joint>
   <link name="link_3_caster_7">
@@ -675,23 +993,17 @@
       <mass value="0.0059" />
       <inertia ixx="1.45e-6" ixy="0" ixz="0" iyy="1.45e-6" iyz="0" izz="1.45e-6" />
     </inertial>
-    <visual>
-      <origin xyz="0 0 0" rpy="0 0 0" />
-      <geometry>
-        <sphere radius="0.025" />
-      </geometry>
-    </visual>
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <sphere radius="0.025" />
+        <sphere radius="0.015" />
       </geometry>
     </collision>
   </link>
   <joint name="joint_3_caster_7" type="continuous">
     <parent link="link_3" />
     <child link="link_3_caster_7" />
-    <origin xyz="-0.04 0.053 -0.053" rpy="0 0 0" />
+    <origin xyz="-0.038 0.061518290 -0.061518290" rpy="0 0 0" />
     <axis xyz="0 0.707107 0.707107" />
   </joint>
 

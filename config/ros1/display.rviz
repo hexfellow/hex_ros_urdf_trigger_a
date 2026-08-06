@@ -67,17 +67,17 @@ Visualization Manager:
           Show Trail: false
           Value: true
         link_1:
-          Alpha: 0.5
+          Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
         link_2:
-          Alpha: 0.5
+          Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true
         link_3:
-          Alpha: 0.5
+          Alpha: 1
           Show Axes: false
           Show Trail: false
           Value: true

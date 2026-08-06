@@ -47,4 +47,4 @@ The package models the Trigger A robot with a base and three continuous joints:
 | base_link | fixed | Main body |
 | link_1 ~ link_3 | actuated | Trigger links driven by continuous joints |
 
-Each moving link includes eight spherical caster links with continuous joints tangent to the wheel circumference for visual and collision modeling.
+Each moving link includes 16 spherical caster links with continuous joints tangent to the wheel circumference for visual and collision modeling.
