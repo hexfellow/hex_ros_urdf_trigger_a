@@ -353,9 +353,9 @@
 
   <link name="link_2">
     <inertial>
-      <origin xyz="0.0362393285657833 0 0" rpy="0 0 0" />
+      <origin xyz="-0.0362393285657834 0 -1.38777878078145E-17" rpy="0 0 0" />
       <mass value="1.62479279397676" />
-      <inertia ixx="0.0077115189141186" ixy="-3.25260651745653E-19" ixz="1.1255001621624E-19" iyy="0.00422192420579848" iyz="1.35681246040582E-19" izz="0.00422192420579848" />
+      <inertia ixx="0.0077115189141186" ixy="-1.20539656827376E-19" ixz="7.58470519838272E-20" iyy="0.00422192420579848" iyz="1.02141292144106E-19" izz="0.00422192420579848" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -368,10 +368,10 @@
     </visual>
   </link>
   <joint name="joint_2" type="continuous">
-    <origin xyz="0.14475 -0.25071 0.103" rpy="0 0 -1.0472" />
+    <origin xyz="-0.2895 0 0.103" rpy="0 0 0" />
     <parent link="base_link" />
     <child link="link_2" />
-    <axis xyz="1 0 0" />
+    <axis xyz="-1 0 0" />
     <limit lower="0" upper="3" effort="2" velocity="2" />
   </joint>
   <link name="link_2_caster_0">
@@ -390,7 +390,7 @@
   <joint name="joint_2_caster_0" type="continuous">
     <parent link="link_2" />
     <child link="link_2_caster_0" />
-    <origin xyz="0.0357 0.087 0.0" rpy="0 0 0" />
+    <origin xyz="-0.0357 0.087 0.0" rpy="0 0 0" />
     <axis xyz="0 0 1" />
   </joint>
   <link name="link_2_caster_1">
@@ -409,7 +409,7 @@
   <joint name="joint_2_caster_1" type="continuous">
     <parent link="link_2" />
     <child link="link_2_caster_1" />
-    <origin xyz="0.0357 0.061518290 0.061518290" rpy="0 0 0" />
+    <origin xyz="-0.0357 0.061518290 0.061518290" rpy="0 0 0" />
     <axis xyz="0 -0.707107 0.707107" />
   </joint>
   <link name="link_2_caster_2">
@@ -428,7 +428,7 @@
   <joint name="joint_2_caster_2" type="continuous">
     <parent link="link_2" />
     <child link="link_2_caster_2" />
-    <origin xyz="0.0357 0.0 0.087" rpy="0 0 0" />
+    <origin xyz="-0.0357 0.0 0.087" rpy="0 0 0" />
     <axis xyz="0 -1 0" />
   </joint>
   <link name="link_2_caster_3">
@@ -447,7 +447,7 @@
   <joint name="joint_2_caster_3" type="continuous">
     <parent link="link_2" />
     <child link="link_2_caster_3" />
-    <origin xyz="0.0357 -0.061518290 0.061518290" rpy="0 0 0" />
+    <origin xyz="-0.0357 -0.061518290 0.061518290" rpy="0 0 0" />
     <axis xyz="0 -0.707107 -0.707107" />
   </joint>
   <link name="link_2_caster_4">
@@ -466,7 +466,7 @@
   <joint name="joint_2_caster_4" type="continuous">
     <parent link="link_2" />
     <child link="link_2_caster_4" />
-    <origin xyz="0.0357 -0.087 0.0" rpy="0 0 0" />
+    <origin xyz="-0.0357 -0.087 0.0" rpy="0 0 0" />
     <axis xyz="0 0 -1" />
   </joint>
   <link name="link_2_caster_5">
@@ -485,7 +485,7 @@
   <joint name="joint_2_caster_5" type="continuous">
     <parent link="link_2" />
     <child link="link_2_caster_5" />
-    <origin xyz="0.0357 -0.061518290 -0.061518290" rpy="0 0 0" />
+    <origin xyz="-0.0357 -0.061518290 -0.061518290" rpy="0 0 0" />
     <axis xyz="0 0.707107 -0.707107" />
   </joint>
   <link name="link_2_caster_6">
@@ -504,7 +504,7 @@
   <joint name="joint_2_caster_6" type="continuous">
     <parent link="link_2" />
     <child link="link_2_caster_6" />
-    <origin xyz="0.0357 0.0 -0.087" rpy="0 0 0" />
+    <origin xyz="-0.0357 0.0 -0.087" rpy="0 0 0" />
     <axis xyz="0 1 0" />
   </joint>
   <link name="link_2_caster_7">
@@ -523,7 +523,7 @@
   <joint name="joint_2_caster_7" type="continuous">
     <parent link="link_2" />
     <child link="link_2_caster_7" />
-    <origin xyz="0.0357 0.061518290 -0.061518290" rpy="0 0 0" />
+    <origin xyz="-0.0357 0.061518290 -0.061518290" rpy="0 0 0" />
     <axis xyz="0 0.707107 0.707107" />
   </joint>
   <link name="link_2_caster_8">
@@ -542,7 +542,7 @@
   <joint name="joint_2_caster_8" type="continuous">
     <parent link="link_2" />
     <child link="link_2_caster_8" />
-    <origin xyz="0.0357 0.080377519 0.033293458" rpy="0 0 0" />
+    <origin xyz="-0.0357 0.080377519 0.033293458" rpy="0 0 0" />
     <axis xyz="0 -0.382683 0.923880" />
   </joint>
   <link name="link_2_caster_9">
@@ -561,7 +561,7 @@
   <joint name="joint_2_caster_9" type="continuous">
     <parent link="link_2" />
     <child link="link_2_caster_9" />
-    <origin xyz="0.0357 0.033293458 0.080377519" rpy="0 0 0" />
+    <origin xyz="-0.0357 0.033293458 0.080377519" rpy="0 0 0" />
     <axis xyz="0 -0.923880 0.382683" />
   </joint>
   <link name="link_2_caster_10">
@@ -580,7 +580,7 @@
   <joint name="joint_2_caster_10" type="continuous">
     <parent link="link_2" />
     <child link="link_2_caster_10" />
-    <origin xyz="0.0357 -0.033293458 0.080377519" rpy="0 0 0" />
+    <origin xyz="-0.0357 -0.033293458 0.080377519" rpy="0 0 0" />
     <axis xyz="0 -0.923880 -0.382683" />
   </joint>
   <link name="link_2_caster_11">
@@ -599,7 +599,7 @@
   <joint name="joint_2_caster_11" type="continuous">
     <parent link="link_2" />
     <child link="link_2_caster_11" />
-    <origin xyz="0.0357 -0.080377519 0.033293458" rpy="0 0 0" />
+    <origin xyz="-0.0357 -0.080377519 0.033293458" rpy="0 0 0" />
     <axis xyz="0 -0.382683 -0.923880" />
   </joint>
   <link name="link_2_caster_12">
@@ -618,7 +618,7 @@
   <joint name="joint_2_caster_12" type="continuous">
     <parent link="link_2" />
     <child link="link_2_caster_12" />
-    <origin xyz="0.0357 -0.080377519 -0.033293458" rpy="0 0 0" />
+    <origin xyz="-0.0357 -0.080377519 -0.033293458" rpy="0 0 0" />
     <axis xyz="0 0.382683 -0.923880" />
   </joint>
   <link name="link_2_caster_13">
@@ -637,7 +637,7 @@
   <joint name="joint_2_caster_13" type="continuous">
     <parent link="link_2" />
     <child link="link_2_caster_13" />
-    <origin xyz="0.0357 -0.033293458 -0.080377519" rpy="0 0 0" />
+    <origin xyz="-0.0357 -0.033293458 -0.080377519" rpy="0 0 0" />
     <axis xyz="0 0.923880 -0.382683" />
   </joint>
   <link name="link_2_caster_14">
@@ -656,7 +656,7 @@
   <joint name="joint_2_caster_14" type="continuous">
     <parent link="link_2" />
     <child link="link_2_caster_14" />
-    <origin xyz="0.0357 0.033293458 -0.080377519" rpy="0 0 0" />
+    <origin xyz="-0.0357 0.033293458 -0.080377519" rpy="0 0 0" />
     <axis xyz="0 0.923880 0.382683" />
   </joint>
   <link name="link_2_caster_15">
@@ -675,15 +675,15 @@
   <joint name="joint_2_caster_15" type="continuous">
     <parent link="link_2" />
     <child link="link_2_caster_15" />
-    <origin xyz="0.0357 0.080377519 -0.033293458" rpy="0 0 0" />
+    <origin xyz="-0.0357 0.080377519 -0.033293458" rpy="0 0 0" />
     <axis xyz="0 0.382683 0.923880" />
   </joint>
 
   <link name="link_3">
     <inertial>
-      <origin xyz="-0.0362393285657834 0 -1.38777878078145E-17" rpy="0 0 0" />
+      <origin xyz="0.0362393285657833 0 0" rpy="0 0 0" />
       <mass value="1.62479279397676" />
-      <inertia ixx="0.0077115189141186" ixy="-1.20539656827376E-19" ixz="7.58470519838272E-20" iyy="0.00422192420579848" iyz="1.02141292144106E-19" izz="0.00422192420579848" />
+      <inertia ixx="0.0077115189141186" ixy="-3.25260651745653E-19" ixz="1.1255001621624E-19" iyy="0.00422192420579848" iyz="1.35681246040582E-19" izz="0.00422192420579848" />
     </inertial>
     <visual>
       <origin xyz="0 0 0" rpy="0 0 0" />
@@ -696,10 +696,10 @@
     </visual>
   </link>
   <joint name="joint_3" type="continuous">
-    <origin xyz="-0.2895 0 0.103" rpy="0 0 0" />
+    <origin xyz="0.14475 -0.25071 0.103" rpy="0 0 -1.0472" />
     <parent link="base_link" />
     <child link="link_3" />
-    <axis xyz="-1 0 0" />
+    <axis xyz="1 0 0" />
     <limit lower="0" upper="3" effort="2" velocity="2" />
   </joint>
   <link name="link_3_caster_0">
@@ -718,7 +718,7 @@
   <joint name="joint_3_caster_0" type="continuous">
     <parent link="link_3" />
     <child link="link_3_caster_0" />
-    <origin xyz="-0.0357 0.087 0.0" rpy="0 0 0" />
+    <origin xyz="0.0357 0.087 0.0" rpy="0 0 0" />
     <axis xyz="0 0 1" />
   </joint>
   <link name="link_3_caster_1">
@@ -737,7 +737,7 @@
   <joint name="joint_3_caster_1" type="continuous">
     <parent link="link_3" />
     <child link="link_3_caster_1" />
-    <origin xyz="-0.0357 0.061518290 0.061518290" rpy="0 0 0" />
+    <origin xyz="0.0357 0.061518290 0.061518290" rpy="0 0 0" />
     <axis xyz="0 -0.707107 0.707107" />
   </joint>
   <link name="link_3_caster_2">
@@ -756,7 +756,7 @@
   <joint name="joint_3_caster_2" type="continuous">
     <parent link="link_3" />
     <child link="link_3_caster_2" />
-    <origin xyz="-0.0357 0.0 0.087" rpy="0 0 0" />
+    <origin xyz="0.0357 0.0 0.087" rpy="0 0 0" />
     <axis xyz="0 -1 0" />
   </joint>
   <link name="link_3_caster_3">
@@ -775,7 +775,7 @@
   <joint name="joint_3_caster_3" type="continuous">
     <parent link="link_3" />
     <child link="link_3_caster_3" />
-    <origin xyz="-0.0357 -0.061518290 0.061518290" rpy="0 0 0" />
+    <origin xyz="0.0357 -0.061518290 0.061518290" rpy="0 0 0" />
     <axis xyz="0 -0.707107 -0.707107" />
   </joint>
   <link name="link_3_caster_4">
@@ -794,7 +794,7 @@
   <joint name="joint_3_caster_4" type="continuous">
     <parent link="link_3" />
     <child link="link_3_caster_4" />
-    <origin xyz="-0.0357 -0.087 0.0" rpy="0 0 0" />
+    <origin xyz="0.0357 -0.087 0.0" rpy="0 0 0" />
     <axis xyz="0 0 -1" />
   </joint>
   <link name="link_3_caster_5">
@@ -813,7 +813,7 @@
   <joint name="joint_3_caster_5" type="continuous">
     <parent link="link_3" />
     <child link="link_3_caster_5" />
-    <origin xyz="-0.0357 -0.061518290 -0.061518290" rpy="0 0 0" />
+    <origin xyz="0.0357 -0.061518290 -0.061518290" rpy="0 0 0" />
     <axis xyz="0 0.707107 -0.707107" />
   </joint>
   <link name="link_3_caster_6">
@@ -832,7 +832,7 @@
   <joint name="joint_3_caster_6" type="continuous">
     <parent link="link_3" />
     <child link="link_3_caster_6" />
-    <origin xyz="-0.0357 0.0 -0.087" rpy="0 0 0" />
+    <origin xyz="0.0357 0.0 -0.087" rpy="0 0 0" />
     <axis xyz="0 1 0" />
   </joint>
   <link name="link_3_caster_7">
@@ -851,7 +851,7 @@
   <joint name="joint_3_caster_7" type="continuous">
     <parent link="link_3" />
     <child link="link_3_caster_7" />
-    <origin xyz="-0.0357 0.061518290 -0.061518290" rpy="0 0 0" />
+    <origin xyz="0.0357 0.061518290 -0.061518290" rpy="0 0 0" />
     <axis xyz="0 0.707107 0.707107" />
   </joint>
   <link name="link_3_caster_8">
@@ -870,7 +870,7 @@
   <joint name="joint_3_caster_8" type="continuous">
     <parent link="link_3" />
     <child link="link_3_caster_8" />
-    <origin xyz="-0.0357 0.080377519 0.033293458" rpy="0 0 0" />
+    <origin xyz="0.0357 0.080377519 0.033293458" rpy="0 0 0" />
     <axis xyz="0 -0.382683 0.923880" />
   </joint>
   <link name="link_3_caster_9">
@@ -889,7 +889,7 @@
   <joint name="joint_3_caster_9" type="continuous">
     <parent link="link_3" />
     <child link="link_3_caster_9" />
-    <origin xyz="-0.0357 0.033293458 0.080377519" rpy="0 0 0" />
+    <origin xyz="0.0357 0.033293458 0.080377519" rpy="0 0 0" />
     <axis xyz="0 -0.923880 0.382683" />
   </joint>
   <link name="link_3_caster_10">
@@ -908,7 +908,7 @@
   <joint name="joint_3_caster_10" type="continuous">
     <parent link="link_3" />
     <child link="link_3_caster_10" />
-    <origin xyz="-0.0357 -0.033293458 0.080377519" rpy="0 0 0" />
+    <origin xyz="0.0357 -0.033293458 0.080377519" rpy="0 0 0" />
     <axis xyz="0 -0.923880 -0.382683" />
   </joint>
   <link name="link_3_caster_11">
@@ -927,7 +927,7 @@
   <joint name="joint_3_caster_11" type="continuous">
     <parent link="link_3" />
     <child link="link_3_caster_11" />
-    <origin xyz="-0.0357 -0.080377519 0.033293458" rpy="0 0 0" />
+    <origin xyz="0.0357 -0.080377519 0.033293458" rpy="0 0 0" />
     <axis xyz="0 -0.382683 -0.923880" />
   </joint>
   <link name="link_3_caster_12">
@@ -946,7 +946,7 @@
   <joint name="joint_3_caster_12" type="continuous">
     <parent link="link_3" />
     <child link="link_3_caster_12" />
-    <origin xyz="-0.0357 -0.080377519 -0.033293458" rpy="0 0 0" />
+    <origin xyz="0.0357 -0.080377519 -0.033293458" rpy="0 0 0" />
     <axis xyz="0 0.382683 -0.923880" />
   </joint>
   <link name="link_3_caster_13">
@@ -965,7 +965,7 @@
   <joint name="joint_3_caster_13" type="continuous">
     <parent link="link_3" />
     <child link="link_3_caster_13" />
-    <origin xyz="-0.0357 -0.033293458 -0.080377519" rpy="0 0 0" />
+    <origin xyz="0.0357 -0.033293458 -0.080377519" rpy="0 0 0" />
     <axis xyz="0 0.923880 -0.382683" />
   </joint>
   <link name="link_3_caster_14">
@@ -984,7 +984,7 @@
   <joint name="joint_3_caster_14" type="continuous">
     <parent link="link_3" />
     <child link="link_3_caster_14" />
-    <origin xyz="-0.0357 0.033293458 -0.080377519" rpy="0 0 0" />
+    <origin xyz="0.0357 0.033293458 -0.080377519" rpy="0 0 0" />
     <axis xyz="0 0.923880 0.382683" />
   </joint>
   <link name="link_3_caster_15">
@@ -1003,7 +1003,7 @@
   <joint name="joint_3_caster_15" type="continuous">
     <parent link="link_3" />
     <child link="link_3_caster_15" />
-    <origin xyz="-0.0357 0.080377519 -0.033293458" rpy="0 0 0" />
+    <origin xyz="0.0357 0.080377519 -0.033293458" rpy="0 0 0" />
     <axis xyz="0 0.382683 0.923880" />
   </joint>
 
